@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "dbarke.overview",
+  "name": "Window overview",
+  "version": "0.1.0",
+  "author": "dbarke",
+  "license": "MIT",
+  "description": "Mission Control for Hyprland: live thumbnails of every open window, grouped by workspace; click one to jump to it.",
+  "kinds": [
+    "overlay",
+    "service"
+  ],
+  "entryPoints": {
+    "overlay": "Overview.qml",
+    "service": "Snapshots.qml"
+  }
+}
